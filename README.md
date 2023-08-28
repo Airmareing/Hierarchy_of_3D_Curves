@@ -11,56 +11,58 @@
 Сборка и запуск программы осуществляется с помощью Makefile. Для его использования необходимо папке /src прописать команду "make".  
   
 Пример вывода программы:  
-          TASK 3
+        TASK 3
 
 Points and Derivatives at t = PI/4:  
-Class: 0  
-Point: (12.87, 12.87, 0)  
-Derivative: {-12.87, 12.87, 0}  
+Class: Helix  
+Point: (61.4627, 61.4627, -3.91566)  
+Derivative: {-61.4627, 61.4627, -4.98557}  
 
-Class: 2  
-Point: (4.47743, 4.47743, -10.4255)  
-Derivative: {-4.47743, 4.47743, -13.2741}  
+Class: Circle  
+Point: (23.49, 23.49, 0)  
+Derivative: {-23.49, 23.49, 0}  
 
-Class: 2  
-Point: (59.4007, 59.4007, -11.3312)  
-Derivative: {-59.4007, 59.4007, -14.4274}  
+Class: Circle  
+Point: (7.95661, 7.95661, 0)  
+Derivative: {-7.95661, 7.95661, 0}  
 
-Class: 2  
-Point: (29.9378, 29.9378, 9.506)  
-Derivative: {-29.9378, 29.9378, 12.1034}  
+Class: Circle  
+Point: (21.7033, 21.7033, 0)  
+Derivative: {-21.7033, 21.7033, 0}  
 
-Class: 0  
-Point: (5.15948, 5.15948, 0)  
-Derivative: {-5.15948, 5.15948, 0}  
+Class: Ellipse  
+Point: (29.4398, 43.4472, 0)  
+Derivative: {-29.4398, 43.4472, 0}  
 
-Class: 1  
-Point: (10.3056, 37.5069, 0)  
-Derivative: {-10.3056, 37.5069, 0}  
+Class: Ellipse  
+Point: (8.91191, 10.7147, 0)  
+Derivative: {-8.91191, 10.7147, 0}  
 
-Class: 0  
-Point: (61.5763, 61.5763, 0)  
-Derivative: {-61.5763, 61.5763, 0}  
+Class: Helix  
+Point: (13.514, 13.514, -11.8891)  
+Derivative: {-13.514, 13.514, -15.1376}  
 
-Class: 1  
-Point: (27.3333, 27.8959, 0)  
-Derivative: {-27.3333, 27.8959, 0}  
+Class: Helix  
+Point: (15.6185, 15.6185, 4.78417)  
+Derivative: {-15.6185, 15.6185, 6.09139}  
 
-Class: 1  
-Point: (48.9978, 46.4531, 0)  
-Derivative: {-48.9978, 46.4531, 0}  
+Class: Circle  
+Point: (18.707, 18.707, 0)  
+Derivative: {-18.707, 18.707, 0}  
 
-Class: 1  
-Point: (65.2662, 44.9513, 0)  
-Derivative: {-65.2662, 44.9513, 0}  
-      TASK 5
-      
+Class: Helix  
+Point: (54.4825, 54.4825, 5.14913)  
+Derivative: {-54.4825, 54.4825, 6.55607}  
+        TASK 5
+
 Radii:  
-Radius: 7.29661
+Radius: 11.2523
 
-Radius: 25.4976
+Radius: 26.4557
 
-Radius: 112.58  
+Radius: 30.693
+
+Radius: 33.2199  
         TASK 6
 
-Sum of radii: 145.374
+Sum of radii: 101.621
