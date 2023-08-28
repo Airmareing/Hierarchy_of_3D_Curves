@@ -73,7 +73,7 @@ int main() {
     }
     
     // 3
-    cout << "Points and Derivatives at t = PI/4:" << endl;
+    cout << "\tTASK 3\n\nPoints and Derivatives at t = PI/4:" << endl;
     for(const CurvePtr& p : firstVec) {
         cout << "Class: " << p->GetType() << endl;
         cout << "Point: " << p->GetPoint(M_PI/4) << endl;
@@ -100,10 +100,15 @@ int main() {
     std::sort(circleVec.begin(), circleVec.end(), compare);
 
     // 6
-    double summ = 0.0;
+    double summ = 0.0, buff = 0.0;
+    cout << "\tTASK 5\n\nRadii:" << endl;
     for (const CirclePtr& p : circleVec) {
-        summ += p->GetRadius();
+        buff += p->GetRadius();
+        summ += buff;
+        cout << "Radius: " << buff << endl;
+        cout << endl;
     }
+    cout << "\tTASK 6\n\nSum of radii: " << summ << endl;
 
     return 0;
 }
