@@ -2,9 +2,6 @@
 #define CIRCLE_H
 
 #include "AbstractCurve.h"
-#include "Circle.h"
-#include "Ellipse.h"
-#include "Helix3D.h"
 
 class Circle : public AbstractCurve {
 public:

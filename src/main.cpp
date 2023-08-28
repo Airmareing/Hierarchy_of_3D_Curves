@@ -75,7 +75,9 @@ int main() {
     // 3
     cout << "\tTASK 3\n\nPoints and Derivatives at t = PI/4:" << endl;
     for(const CurvePtr& p : firstVec) {
-        cout << "Class: " << p->GetType() << endl;
+        cout << "Class: ";
+        PrintType(p->GetType());
+        cout << endl;
         cout << "Point: " << p->GetPoint(M_PI/4) << endl;
         cout << "Derivative: " << p->GetDeriv(M_PI/4) << endl;
         cout << endl;
@@ -103,7 +105,7 @@ int main() {
     double summ = 0.0, buff = 0.0;
     cout << "\tTASK 5\n\nRadii:" << endl;
     for (const CirclePtr& p : circleVec) {
-        buff += p->GetRadius();
+        buff = p->GetRadius();
         summ += buff;
         cout << "Radius: " << buff << endl;
         cout << endl;
